@@ -1,0 +1,148 @@
+html,
+body {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('imagenes/Imagen planta.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  position: relative;
+  margin: 2%;
+}
+
+header {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  box-sizing: border-box;
+  padding-left: 55%;
+  padding-top: 2%;
+  position: relative;
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6bcce;
+  text-align: center;
+  width: 36%;
+  height: 100%;
+  margin-left: 5%;
+  position: absolute; /* Se mantiene en una posición fija sobre el header */
+  top: 0; /* Coloca la navegación en la parte superior */
+  left: 0; /* Ajusta la posición para evitar desplazamientos */
+  z-index: 10; /* Asegura que esté sobre el header */
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  padding-right: 1%;
+  border-radius: 30px 30px 0 0;
+}
+
+nav h2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0;
+  margin-left: 15px;
+  border-radius: 10px;
+  background-color: #d09a9a;
+  margin-top: 60px;
+}
+
+.imagen-aside {
+  width: 130px;
+  height: 130px;
+  border-radius: 80%;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contacto-lista {
+  padding: 0;
+  text-align: left;
+  margin-left: 10%;
+  margin-bottom: 1px;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  height: auto;
+  width: 60%;
+  margin-left: 40%;
+  margin-right: auto;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  padding-right: 1%;
+  padding-bottom: 20px;
+}
+
+.Experiencias {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 20px;
+  text-align: left;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  padding: 20px;
+  border-radius: 15px;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding-right: 1%;
+}
+
+.Experiencias h2 {
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0;
+  margin-left: 15px;
+  border-radius: 10px;
+  background-color: #d09a9a;
+  
+}
+
+.Experiencias p,
+.Experiencias h4 {
+  margin-left: 15px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
